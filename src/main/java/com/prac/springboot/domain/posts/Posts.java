@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class Posts {
     @Id // 테이블의 PK 필드를 나타낸다.
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    // 스프링부트 2.0에서는 GenerationType.IDENTITY 옵션을 추가해줘야 auto incrementrk rksmdgkek.
+    // 스프링부트 2.0에서는 GenerationType.IDENTITY 옵션을 추가해줘야 auto increment가 가능하다.
     private Long id;
 
     @Column(length = 500, nullable = false)
