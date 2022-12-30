@@ -1,5 +1,6 @@
-package com.prac.springboot.config.auth;
+package com.prac.springboot.config;
 
+import com.prac.springboot.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
